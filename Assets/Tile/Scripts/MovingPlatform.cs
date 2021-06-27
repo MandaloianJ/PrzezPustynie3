@@ -25,8 +25,8 @@ public class MovingPlatform : MonoBehaviour {
 
         currentPlatformPosition = Vector2.Lerp(startPoint, endPoint, Mathf.PingPong(Time.time * speed, 1));
         transform.position = currentPlatformPosition;
-        Destroy (navStartPoint.gameObject);
-        Destroy (navEndPoint.gameObject);
+        //Destroy (navStartPoint.gameObject);
+        //Destroy (navEndPoint.gameObject);
 
         //transform.position = new Vector3(Mathf.PingPong(Time.time, 3), transform.position.y, transform.position.z);
         //transform.Translate(speed, 0, 0);
