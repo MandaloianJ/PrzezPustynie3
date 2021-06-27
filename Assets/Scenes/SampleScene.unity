@@ -1956,7 +1956,7 @@ PrefabInstance:
     - target: {fileID: 8422987529549769258, guid: e9d52e1aae7424e4d9d6df597a50f067,
         type: 3}
       propertyPath: m_Name
-      value: Crate (14
+      value: Crate (14)
       objectReference: {fileID: 0}
     - target: {fileID: 8422987529549769270, guid: e9d52e1aae7424e4d9d6df597a50f067,
         type: 3}
