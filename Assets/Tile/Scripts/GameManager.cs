@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
@@ -8,13 +9,15 @@ public class GameManager : MonoBehaviour {
 
     public int currentLevel;
 
-    private void Awake()
+    public string[] levelNames;
+
+    void Awake()
     {
         if (instance == null)
         {
             instance = this;
         }
-        else if (instance =this)
+        else if (instance != this)
         {
             Destroy(this.gameObject);
         }
@@ -28,10 +31,10 @@ public class GameManager : MonoBehaviour {
         
     }
 
-    public void OpenLevel(int newLeveNum)
+    public void OpenLevel(int newLevelNum)
     {
-        
-        //SceneManager.LoadScene
+
+        SceneManager.LoadScene(levelNames[newLevelNum]);
     }
 
 
