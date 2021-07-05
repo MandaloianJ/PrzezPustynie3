@@ -13,10 +13,10 @@ public class Punkt : MonoBehaviour
     {
         counterController = GameObject.Find("Manager").GetComponent<CounterController>();
         if (counterController == null)
-
         {
             Debug.LogError("CounterController nie zosta znaleziony");
         }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)

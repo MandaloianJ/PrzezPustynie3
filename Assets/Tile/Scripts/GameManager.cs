@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
 
-    public int currentLevel;
+    public int currentLevel = 0;
 
     public string[] levelNames;
 
@@ -28,15 +28,28 @@ public class GameManager : MonoBehaviour {
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.HasKey("currentLevel"))
+        {
+            currentLevel = PlayerPrefs.GetInt("currentLevel");
+        }
     }
-
+    
     public void OpenLevel(int newLevelNum)
     {
 
         SceneManager.LoadScene(levelNames[newLevelNum]);
     }
 
+    public void OpenCurrentLevel()
+    {
+        OpenLevel(currentLevel);
+    }
 
-    
+    public void CloseApplication()
+    {
+        PlayerPrefs.SetInt("currentLevel", currentLevel);
+
+        Application.Quit();
+    }
+
 }

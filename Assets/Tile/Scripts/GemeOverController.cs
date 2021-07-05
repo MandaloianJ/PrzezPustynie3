@@ -11,6 +11,7 @@ public class GemeOverController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         GameOverCanvas = GameObject.Find("Canvas");
         if (GameOverCanvas != null)
         {
@@ -25,11 +26,13 @@ public class GemeOverController : MonoBehaviour
         {
             Debug.Log("Sukces!");
             successPanel.SetActive(true);
+            Time.timeScale = 0;
         }
         else if (other.gameObject.tag == "bariera")
         {
             Debug.Log("Porażka.");
             failPanel.SetActive(true);
+            Time.timeScale = 0;
         }
 
     }

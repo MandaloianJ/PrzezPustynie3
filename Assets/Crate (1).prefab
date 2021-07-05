@@ -120,3 +120,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: ad03aba1a1583422b87a3966c8f741d3, type: 3}
+  particlesPrefab: {fileID: 4024600414903146787, guid: 9989cddc5fd22a04b92039c3c41c38c6,
+    type: 3}
