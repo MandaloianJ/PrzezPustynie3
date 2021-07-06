@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 309602823}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 5ab91a2740f8b4476a8946f20def321f, type: 3}
 --- !u!212 &51880749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1097,6 +1097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: platforma (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a311af8d30e8248039087421007391e9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}
 --- !u!1 &358835175 stripped
@@ -1630,6 +1635,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: platforma (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a311af8d30e8248039087421007391e9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}
 --- !u!1001 &671868670
@@ -2367,6 +2377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: platforma (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a311af8d30e8248039087421007391e9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}
 --- !u!1001 &1000205436
@@ -2436,6 +2451,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: platforma (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a311af8d30e8248039087421007391e9, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}
 --- !u!1001 &1042558710
@@ -2505,6 +2525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: platforma (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f22c7df422ca6854aa49616e6124bc94, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}
 --- !u!1001 &1082829388
@@ -2931,7 +2956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 2124349767}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 5ab91a2740f8b4476a8946f20def321f, type: 3}
 --- !u!212 &1132443089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4461,6 +4486,11 @@ PrefabInstance:
       propertyPath: m_EdgeRadius
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2666791125173993380, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ab91a2740f8b4476a8946f20def321f, type: 3}
     - target: {fileID: 2666791125173993403, guid: 2ccd73e1d444c67419eed1be989b35b6,
         type: 3}
       propertyPath: m_Name
