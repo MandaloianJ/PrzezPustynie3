@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
+///[RequireComponent(typeof(IdzwPrawo))]
 public class PlayerController : MonoBehaviour
 {
+    public IdzwPrawo IdzwPrawo_skrypt;
+
 
     public float heroSpeed;
     public float jumpForce;
@@ -29,6 +31,7 @@ public class PlayerController : MonoBehaviour
         rgdBody = GetComponent<Rigidbody2D>();
     }
 
+    
     // Update is called once per frame
     void Update()
     {
@@ -36,7 +39,16 @@ public class PlayerController : MonoBehaviour
         onTheGround = Physics2D.OverlapCircle(groundTester.position, radius, layearsToTest);
 
         float horizontalMove = Input.GetAxis("Horizontal");
-        Debug.Log("horizontalMove:" + horizontalMove);
+
+        if (IdzwPrawo_skrypt.nacisniety_wlewo)
+        {
+            Debug.Log("PlayerController IsPressed called.");
+            horizontalMove = 1f;
+        }
+        
+        
+        //Debug.Log("horizontalMove:" + horizontalMove);
+
         rgdBody.velocity = new Vector2 (horizontalMove * heroSpeed, rgdBody.velocity.y);
 
         if (Input.GetKeyDown(KeyCode.Space) && onTheGround) {
