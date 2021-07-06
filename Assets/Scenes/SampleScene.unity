@@ -2093,7 +2093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 818155643}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: f22c7df422ca6854aa49616e6124bc94, type: 3}
 --- !u!212 &874310610
 SpriteRenderer:
   m_ObjectHideFlags: 0
