@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class IdzwPrawo : Button
+public class IdzwLewo : Button
 {
-    public bool nacisniety_wPrawo = false;
+    public bool nacisniety_wlewo = false;
 
     public void Update()
     {
-        nacisniety_wPrawo = IsPressed();
+        nacisniety_wlewo = IsPressed();
         //if (IsPressed())
         //{
         //    onClick.Invoke();

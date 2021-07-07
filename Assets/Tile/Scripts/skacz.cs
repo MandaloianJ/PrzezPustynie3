@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class IdzwPrawo : Button
+public class skacz : Button
 {
-    public bool nacisniety_wPrawo = false;
+
+    public bool nacisniety_skacz = false;
 
     public void Update()
     {
-        nacisniety_wPrawo = IsPressed();
+        nacisniety_skacz = IsPressed();
         //if (IsPressed())
         //{
         //    onClick.Invoke();
