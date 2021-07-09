@@ -1,0 +1,1207 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'pl' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/admin/swiatowagra
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49730
+Successfully changed project path to: C:/Users/admin/swiatowagra
+C:/Users/admin/swiatowagra
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/swiatowagra/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002135 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1964 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 6.427000 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.083000 ms MarkObjects: 6.035800 ms  DeleteObjects: 0.109000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Tile/12.png
+  artifactKey: Guid(ef3e1547131d0ae40bc06a6ad4f45e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/12.png using Guid(ef3e1547131d0ae40bc06a6ad4f45e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bdb23ab9fb7952a2a1efd3c2672d2c') in 0.221190 seconds 
+  Import took 0.227710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tile/16.png
+  artifactKey: Guid(2ea55b1063b2a804eab3b316926f0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/16.png using Guid(2ea55b1063b2a804eab3b316926f0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebeeeba56b3a177dc26f0dd902d5507') in 0.018254 seconds 
+  Import took 0.021774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tile/7.png
+  artifactKey: Guid(5a48e2141c6fe504db924477a53061be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/7.png using Guid(5a48e2141c6fe504db924477a53061be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ca4f55ad948620eeb685a171ef22d5') in 0.023995 seconds 
+  Import took 0.027608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tile/1.png
+  artifactKey: Guid(83f8a2b478afc814083ca473293a6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/1.png using Guid(83f8a2b478afc814083ca473293a6757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fc13db574302f0d56414ad2437dbf6') in 0.019260 seconds 
+  Import took 0.023066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Tile/2.png
+  artifactKey: Guid(aea959003b7f1ec4aa42fd231eaa2250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/2.png using Guid(aea959003b7f1ec4aa42fd231eaa2250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fa446e20aec93373e08888fcef326e') in 0.018707 seconds 
+  Import took 0.023302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Tile/5.png
+  artifactKey: Guid(b43283b0c515a1e469f1bf4e992bee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/5.png using Guid(b43283b0c515a1e469f1bf4e992bee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af9de4bc15226f606c33bf22d3cb56a') in 0.022194 seconds 
+  Import took 0.026635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tile/8.png
+  artifactKey: Guid(ceb1ab3c28fe56a4ea92258713ec9517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/8.png using Guid(ceb1ab3c28fe56a4ea92258713ec9517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a75d55c8af8da163d68d8365066a2e1') in 0.023397 seconds 
+  Import took 0.028309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Tile/3.png
+  artifactKey: Guid(5317f63a4b0d4684f98e42f520419de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/3.png using Guid(5317f63a4b0d4684f98e42f520419de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da20012c6dc27b859bd8edaa154c18e') in 0.017077 seconds 
+  Import took 0.021731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tile/9.png
+  artifactKey: Guid(d7797af0f640b9347a98a15bca420725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/9.png using Guid(d7797af0f640b9347a98a15bca420725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a032824f8fed6915e0f992a3a9365e') in 0.021305 seconds 
+  Import took 0.024716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Tile/10.png
+  artifactKey: Guid(ef1c34ff426cd4044917765c49a35d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/10.png using Guid(ef1c34ff426cd4044917765c49a35d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1387eb3c45de2fb7977dedc5cf103f3') in 0.013637 seconds 
+  Import took 0.016959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tile/6.png
+  artifactKey: Guid(162cd8e124e6a674f9013460bd9fb112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/6.png using Guid(162cd8e124e6a674f9013460bd9fb112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a825303c6f93a080f75e53bf13bb925c') in 0.013734 seconds 
+  Import took 0.017014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Tile/15.png
+  artifactKey: Guid(c62e55a79e21dfe4a95823c5a8bf72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/15.png using Guid(c62e55a79e21dfe4a95823c5a8bf72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898d33213bfcb40e04db55fdaaace7a1') in 0.013327 seconds 
+  Import took 0.016835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tile/4.png
+  artifactKey: Guid(e350fec1363a23c49abdd1d9bde0395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/4.png using Guid(e350fec1363a23c49abdd1d9bde0395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5459c4ba75581905a51bc855447ce6fb') in 0.012450 seconds 
+  Import took 0.015702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Tile/14.png
+  artifactKey: Guid(d262dd753e98d4a43b68c2eb0f4cd668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/14.png using Guid(d262dd753e98d4a43b68c2eb0f4cd668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca15ea4125a0e3f2087b653979050542') in 0.012791 seconds 
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tile/13.png
+  artifactKey: Guid(1a806f79c9e5e8c47b84839c81ea37c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/13.png using Guid(1a806f79c9e5e8c47b84839c81ea37c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6e455762f0d8148228467a982cbd12') in 0.020359 seconds 
+  Import took 0.023587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tile/11.png
+  artifactKey: Guid(794718313d1dc05488fcf880a26483be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/11.png using Guid(794718313d1dc05488fcf880a26483be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a60e14bf52f4683b6de5046c1d7ee55') in 0.020865 seconds 
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.326 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.8 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 8.412900 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.082500 ms MarkObjects: 8.067000 ms  DeleteObjects: 0.052900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 631.610918 seconds.
+  path: Assets/Scenes/level1.unity
+  artifactKey: Guid(9bb9a79f241d40f41affabf9fa471f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level1.unity using Guid(9bb9a79f241d40f41affabf9fa471f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38adaa1ceadb585d92ebf976bf954cf0') in 0.020960 seconds 
+  Import took 0.024630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.296242 seconds.
+  path: Assets/png/Shoot (1).png
+  artifactKey: Guid(1eb4536ddc3d0fc49a534bc3b912fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Shoot (1).png using Guid(1eb4536ddc3d0fc49a534bc3b912fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330c147b168aa83b9ff8ed0d1e500ca3') in 0.081417 seconds 
+  Import took 0.085175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Sign (1).png
+  artifactKey: Guid(56a4f918cf9cedb4c92b5bddc2adaf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Sign (1).png using Guid(56a4f918cf9cedb4c92b5bddc2adaf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300a1f7f1b85d94eac2c7d5f360d5fff') in 0.029650 seconds 
+  Import took 0.033379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Objects/Sign.png
+  artifactKey: Guid(365055e4224a41f439f0de5b4be809dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Sign.png using Guid(365055e4224a41f439f0de5b4be809dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9146dfdc8306fa6a6ce655e1b0c6d4bc') in 0.015729 seconds 
+  Import took 0.019297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Sign (4).png
+  artifactKey: Guid(05a69cdd3ff73204f88e77754af9597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Sign (4).png using Guid(05a69cdd3ff73204f88e77754af9597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c79b7adda9e4292947a32fcc2e5f89') in 0.026968 seconds 
+  Import took 0.030232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/png/Shoot (3).png
+  artifactKey: Guid(f310dbbb850eb154bb5d6855291d7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Shoot (3).png using Guid(f310dbbb850eb154bb5d6855291d7df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ab72363221084c2d14357807b06258') in 0.026045 seconds 
+  Import took 0.029341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Sign (2).png
+  artifactKey: Guid(127b7a9bf8ecddc4ebd4f17e9e8512e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Sign (2).png using Guid(127b7a9bf8ecddc4ebd4f17e9e8512e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17819b3ec1c403fc0a6973db2c7af52') in 0.027941 seconds 
+  Import took 0.032594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Sign (3).png
+  artifactKey: Guid(7d187258ac3bbe8419f280856843c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Sign (3).png using Guid(7d187258ac3bbe8419f280856843c7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d64eee03cfc0c44c0b628074ab1a8b0') in 0.027134 seconds 
+  Import took 0.031785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/png/Slide (1).png
+  artifactKey: Guid(bdf35d03e86720248b4b33926f6bd0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Slide (1).png using Guid(bdf35d03e86720248b4b33926f6bd0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9e34d177c446e6798ab5970b023d4a') in 0.026691 seconds 
+  Import took 0.030827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Objects/Skeleton.png
+  artifactKey: Guid(70057f14d9fc4624e98a660965280762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Skeleton.png using Guid(70057f14d9fc4624e98a660965280762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a8c86a80732ddb63cc865a35b01625') in 0.018980 seconds 
+  Import took 0.023401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Objects/SignArrow.png
+  artifactKey: Guid(81b4815261a5fa94d8e86e8fab74ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/SignArrow.png using Guid(81b4815261a5fa94d8e86e8fab74ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f47b1f61b52309e12db16c97cf4687') in 0.013884 seconds 
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/png/Shoot (2).png
+  artifactKey: Guid(d607cd75cba59ca4d8820744cbcf881e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Shoot (2).png using Guid(d607cd75cba59ca4d8820744cbcf881e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9579ccb42e11b9329548c7c054d49231') in 0.026886 seconds 
+  Import took 0.030195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.652411 seconds.
+  path: Assets/png/Run (8).png
+  artifactKey: Guid(13d29528a3ae77c4985aaefc87e39b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (8).png using Guid(13d29528a3ae77c4985aaefc87e39b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b882d47ade8e041d15235222c90f2cf') in 0.033530 seconds 
+  Import took 0.038649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001379 seconds.
+  path: Assets/png/Run (7).png
+  artifactKey: Guid(ecbfcafc2c67dc54ab278f9c6e1765fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (7).png using Guid(ecbfcafc2c67dc54ab278f9c6e1765fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324038bfca460aa8991a314df41f89b8') in 0.029035 seconds 
+  Import took 0.033551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027116 seconds.
+  path: Assets/png/Run (6).png
+  artifactKey: Guid(085199b0265d60444a336cbcaf63c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (6).png using Guid(085199b0265d60444a336cbcaf63c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e02e26a8eb2c1d3992cd426d6eaaae') in 0.026173 seconds 
+  Import took 0.030069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.314961 seconds.
+  path: Assets/png/Run (2).png
+  artifactKey: Guid(9206604ce9b599241a88f9d8d4171bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (2).png using Guid(9206604ce9b599241a88f9d8d4171bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964384d624e40631246de104fed78e0f') in 0.043320 seconds 
+  Import took 0.052538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/png/Run (5).png
+  artifactKey: Guid(682e34fb78d3814478ca083a811fab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (5).png using Guid(682e34fb78d3814478ca083a811fab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7df0c3e8e24202edbcb8286333196bd') in 0.031188 seconds 
+  Import took 0.035012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/png/Run (4).png
+  artifactKey: Guid(2639385b0079615419118c447b37886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (4).png using Guid(2639385b0079615419118c447b37886a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ee28af071e6786da084f14023a2475') in 0.025885 seconds 
+  Import took 0.030203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/png/Run (3).png
+  artifactKey: Guid(87687807062670e44a79220947c1a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (3).png using Guid(87687807062670e44a79220947c1a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8247d3539588e84baa7d6b818b791c84') in 0.027228 seconds 
+  Import took 0.030610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117225 seconds.
+  path: Assets/png/Run (1).png
+  artifactKey: Guid(b67a42e25eec6d446a861036d897529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Run (1).png using Guid(b67a42e25eec6d446a861036d897529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12337f7813740f63d37cd043cd9ed09') in 0.037778 seconds 
+  Import took 0.042006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (4).png
+  artifactKey: Guid(f01aea814fd9aea42885d427fe7122da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (4).png using Guid(f01aea814fd9aea42885d427fe7122da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3883aed0a6b2ba6197ff39771e72c330') in 0.027874 seconds 
+  Import took 0.031736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (3).png
+  artifactKey: Guid(8c0988ae946edea43ad7a002bfbbe523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (3).png using Guid(8c0988ae946edea43ad7a002bfbbe523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7ffdfb5a6a3125b7baf57b35a469bb') in 0.025581 seconds 
+  Import took 0.029152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (1).png
+  artifactKey: Guid(908cdb52f6080df49b76e2f24e8f8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (1).png using Guid(908cdb52f6080df49b76e2f24e8f8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c4ee58a3f2622e4d827331dde7090d') in 0.026343 seconds 
+  Import took 0.030239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (5).png
+  artifactKey: Guid(75a31c58835457c4b8d3157a5b3951f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (5).png using Guid(75a31c58835457c4b8d3157a5b3951f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9faae562bdf495e75d75ccb30b7a633') in 0.024569 seconds 
+  Import took 0.028147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (6).png
+  artifactKey: Guid(4058a476338a23948bd97618fb3663ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (6).png using Guid(4058a476338a23948bd97618fb3663ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed0aab704bf8f8a213d47871cf3fc64') in 0.023897 seconds 
+  Import took 0.028354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Rock (2).png
+  artifactKey: Guid(4c8815cb64092594185540ee9f10a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Rock (2).png using Guid(4c8815cb64092594185540ee9f10a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922cee0cab36b887786ab3e5c348cc27') in 0.025304 seconds 
+  Import took 0.028911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105091 seconds.
+  path: Assets/png/Melee (7).png
+  artifactKey: Guid(6bcf74d674d5e6446ac86e3917f77c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (7).png using Guid(6bcf74d674d5e6446ac86e3917f77c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382ee3fa4749be1539039339315db2d') in 0.044768 seconds 
+  Import took 0.049793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/png/Melee (4).png
+  artifactKey: Guid(b361c336127d2de42b20a1ef053d50de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (4).png using Guid(b361c336127d2de42b20a1ef053d50de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc11a2801195e61879c82a36b0f3a203') in 0.027396 seconds 
+  Import took 0.031367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/png/Melee (6).png
+  artifactKey: Guid(f2877ddb65503ee4591d0420b08c0598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (6).png using Guid(f2877ddb65503ee4591d0420b08c0598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98e43ea7d1b09156d3d52c513f7a937') in 0.027133 seconds 
+  Import took 0.031401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Scenes/Sprites/Rama.png
+  artifactKey: Guid(e7e53f92eb954d04986b55638faa2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sprites/Rama.png using Guid(e7e53f92eb954d04986b55638faa2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbabda2111de93feb98a21bab8a1459') in 0.016124 seconds 
+  Import took 0.020009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/png/Melee (5).png
+  artifactKey: Guid(2000a482959a5834ab235419afeae68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (5).png using Guid(2000a482959a5834ab235419afeae68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6e1d532f6efe031484bf985750934e') in 0.026871 seconds 
+  Import took 0.031288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/png/Melee (3).png
+  artifactKey: Guid(90951f2854ac104489f99d04fb8fb593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (3).png using Guid(90951f2854ac104489f99d04fb8fb593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94285804d5684332b56eb2b52d835ac') in 0.029118 seconds 
+  Import took 0.032589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144701 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Lamp (1).png
+  artifactKey: Guid(8fade1fc751627345837ba6ad631e758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Lamp (1).png using Guid(8fade1fc751627345837ba6ad631e758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2076936700a775c8b757954738b526') in 0.037947 seconds 
+  Import took 0.042596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/png/Melee (1).png
+  artifactKey: Guid(0d9da40997288c14fa0c793a8444d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (1).png using Guid(0d9da40997288c14fa0c793a8444d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f64869fe1fb9c4f10b1f207b344f1cf') in 0.027714 seconds 
+  Import took 0.031740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Lamp (2).png
+  artifactKey: Guid(2ec074ca75336524094878380a77a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Lamp (2).png using Guid(2ec074ca75336524094878380a77a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5981fb6e4315c1f93c2d0e3164c2b43') in 0.025219 seconds 
+  Import took 0.029621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Lava Cave/png/Tileset/Lava (2).png
+  artifactKey: Guid(10a6aad89c27fbe47b2b3148b90d0653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileset/Lava (2).png using Guid(10a6aad89c27fbe47b2b3148b90d0653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd776686b9eb3e39833941e6ed2efb8e0') in 0.023845 seconds 
+  Import took 0.028094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Ladder (2).png
+  artifactKey: Guid(eb33415e10dc9bb4c81b29b83961b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Ladder (2).png using Guid(eb33415e10dc9bb4c81b29b83961b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431c64d6f7844e019f0ab38fa071b577') in 0.033559 seconds 
+  Import took 0.038102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Ladder (3).png
+  artifactKey: Guid(8ad2a1bee88ddaa4792e61b22767bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Ladder (3).png using Guid(8ad2a1bee88ddaa4792e61b22767bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4019647759921c03340e7979f1c9c351') in 0.025864 seconds 
+  Import took 0.029676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Lava Cave/png/Tileset/Lava (1).png
+  artifactKey: Guid(7f65e5889bdfb5b4a9e37372028d1c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileset/Lava (1).png using Guid(7f65e5889bdfb5b4a9e37372028d1c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ce6ec37ea06f9e39bb409311f078ac') in 0.025544 seconds 
+  Import took 0.030882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/png/Melee (2).png
+  artifactKey: Guid(2cdf111bdfdeccd46bdfd5855dc114f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Melee (2).png using Guid(2cdf111bdfdeccd46bdfd5855dc114f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce3cec82b07d87cf20e6929e5bc335f') in 0.026694 seconds 
+  Import took 0.030782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036978 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Ladder (1).png
+  artifactKey: Guid(97a6aec41a90ec4418ff1057bdd2b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Ladder (1).png using Guid(97a6aec41a90ec4418ff1057bdd2b8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56168c166d8711c530a968aca60a3bb9') in 0.024223 seconds 
+  Import took 0.028111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024872 seconds.
+  path: Assets/png/Jump (10).png
+  artifactKey: Guid(78c4378e6d8bc42419356d9314cd7b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (10).png using Guid(78c4378e6d8bc42419356d9314cd7b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d623b7733875d39d2b15b73ef67f69') in 0.025442 seconds 
+  Import took 0.029418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257717 seconds.
+  path: Assets/png/Jump (8).png
+  artifactKey: Guid(3b1ae75dca60bcd4e86134a0bb9aca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (8).png using Guid(3b1ae75dca60bcd4e86134a0bb9aca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ca7e27a2bdebdcad8d39ef970a0de0') in 0.046322 seconds 
+  Import took 0.053873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/png/Jump (9).png
+  artifactKey: Guid(6ca4b664f950bee49920eeb57ef494ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (9).png using Guid(6ca4b664f950bee49920eeb57ef494ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dccb8d1a2c0becd95f1a89397473d0f') in 0.039050 seconds 
+  Import took 0.044507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/png/Jump (6).png
+  artifactKey: Guid(386293c6ce0a60d458dd7c928f211381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (6).png using Guid(386293c6ce0a60d458dd7c928f211381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec5e6ec06588b832417f6310952ee41') in 0.026653 seconds 
+  Import took 0.030069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/png/Jump (7).png
+  artifactKey: Guid(bbcfd7ebf45119048a53d1e0d28248cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (7).png using Guid(bbcfd7ebf45119048a53d1e0d28248cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468405b1061297718d728a0480d4e45') in 0.026297 seconds 
+  Import took 0.030599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160711 seconds.
+  path: Assets/png/Jump (4).png
+  artifactKey: Guid(32b1178a7059fc14b9430f54c2283f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (4).png using Guid(32b1178a7059fc14b9430f54c2283f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92251483c5e4ce66909d7cf7aceb2f2') in 0.031928 seconds 
+  Import took 0.037974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/png/Jump (5).png
+  artifactKey: Guid(dc0e7f6ce6dba004c87a0c1fd17b64f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (5).png using Guid(dc0e7f6ce6dba004c87a0c1fd17b64f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543062ad2d0a56d471bf6b42a692a276') in 0.029822 seconds 
+  Import took 0.033378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/png/Jump (4).png
+  artifactKey: Guid(32b1178a7059fc14b9430f54c2283f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (4).png using Guid(32b1178a7059fc14b9430f54c2283f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92251483c5e4ce66909d7cf7aceb2f2') in 0.014395 seconds 
+  Import took 0.018817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/png/Jump (2).png
+  artifactKey: Guid(72a98f8342af56d4e8316151a97f3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (2).png using Guid(72a98f8342af56d4e8316151a97f3d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c605d018091675b3ce49abe6bdd12ef') in 0.027874 seconds 
+  Import took 0.031294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/png/Jump (3).png
+  artifactKey: Guid(7f6116fda2dedc442b4372e61efdb93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (3).png using Guid(7f6116fda2dedc442b4372e61efdb93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a017ca35382c4a2b00bbbfb253cd491') in 0.026863 seconds 
+  Import took 0.031284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.205521 seconds.
+  path: Assets/png/Idle (10).png
+  artifactKey: Guid(15edfc341680377479cb61330888345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (10).png using Guid(15edfc341680377479cb61330888345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c4941eb2a329e2aeaed09a80a37fb8') in 0.025720 seconds 
+  Import took 0.031644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/png/Jump (1).png
+  artifactKey: Guid(a40004c953777bd4897f443e4af8ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Jump (1).png using Guid(a40004c953777bd4897f443e4af8ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ea75e2e997fc0cbc73bf504859b4b') in 0.025977 seconds 
+  Import took 0.029382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045894 seconds.
+  path: Assets/png/Idle (8).png
+  artifactKey: Guid(661e861361a9c884facceacc4eba1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (8).png using Guid(661e861361a9c884facceacc4eba1f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29a1a8bd4d7791282d49bbd52dec079') in 0.034531 seconds 
+  Import took 0.038616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/png/Idle (9).png
+  artifactKey: Guid(244f005c48397274293b649846191753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (9).png using Guid(244f005c48397274293b649846191753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ee29fab9cdd87e41ed85dc0fc3839a') in 0.026249 seconds 
+  Import took 0.029500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193597 seconds.
+  path: Assets/png/Idle (6).png
+  artifactKey: Guid(7882eca690b04af4a95eb8902dc12d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (6).png using Guid(7882eca690b04af4a95eb8902dc12d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad435062d148fe2f841f7f5746bacee5') in 0.043911 seconds 
+  Import took 0.051144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/png/Idle (5).png
+  artifactKey: Guid(9a8164b92692c364b83a2b4cc10cd994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (5).png using Guid(9a8164b92692c364b83a2b4cc10cd994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb4c23353b5d482ca10345cf43ec71d') in 0.025683 seconds 
+  Import took 0.029707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/png/Idle (7).png
+  artifactKey: Guid(bc490c5aed9f0e64ab5fac8ef4f8be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (7).png using Guid(bc490c5aed9f0e64ab5fac8ef4f8be81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fda7923fc4ea3b9b2c86b22696ecef') in 0.021574 seconds 
+  Import took 0.026263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/png/Idle (4).png
+  artifactKey: Guid(9f69bd84d4ffb144189f6cc6cee76db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (4).png using Guid(9f69bd84d4ffb144189f6cc6cee76db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17569a69113ef732b10a3903fe4e336d') in 0.022267 seconds 
+  Import took 0.025757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208715 seconds.
+  path: Assets/Objects/IceBox.png
+  artifactKey: Guid(7597fda15d5359f45875c3ba6608066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/IceBox.png using Guid(7597fda15d5359f45875c3ba6608066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34ea85e28ea4ab0032054f67e2a314') in 0.025442 seconds 
+  Import took 0.030515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/png/Idle (2).png
+  artifactKey: Guid(7453ea6dda45d634abb650dca8997e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (2).png using Guid(7453ea6dda45d634abb650dca8997e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10c5affa70f2bd3e848f798693ec6a4') in 0.025086 seconds 
+  Import took 0.029297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (5).png
+  artifactKey: Guid(975a8355bf54b8a4da581fd188b153b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (5).png using Guid(975a8355bf54b8a4da581fd188b153b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e24793b44bc4fffb1af08afa94602fc') in 0.030704 seconds 
+  Import took 0.035972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/png/Idle (1).png
+  artifactKey: Guid(1ffbf19526d21a741b7c38e0930795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (1).png using Guid(1ffbf19526d21a741b7c38e0930795b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81baa26269bf8281b3f5c4f56fe22992') in 0.023689 seconds 
+  Import took 0.027134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/png/Idle (3).png
+  artifactKey: Guid(7986fa4189b68fe46b7b6082bf1c1533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Idle (3).png using Guid(7986fa4189b68fe46b7b6082bf1c1533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44bbfb420c904e39f27c7b9630ed68f') in 0.021637 seconds 
+  Import took 0.026156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Objects/Grass (1).png
+  artifactKey: Guid(627da75ef06511d409193ba79bcfdc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Grass (1).png using Guid(627da75ef06511d409193ba79bcfdc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5da1ba129e673b979ff9bddc8812147') in 0.015929 seconds 
+  Import took 0.019772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Objects/Grass (2).png
+  artifactKey: Guid(773c2f062f68872458bdb646abca43a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Grass (2).png using Guid(773c2f062f68872458bdb646abca43a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b946e1b19d83389e3b0034a942c0124d') in 0.020905 seconds 
+  Import took 0.025053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (4).png
+  artifactKey: Guid(c1bd0d8582bb26844a44a4b0c77436e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (4).png using Guid(c1bd0d8582bb26844a44a4b0c77436e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31058c44710f86af1806a0dc68cd8020') in 0.022929 seconds 
+  Import took 0.026430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079685 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (2).png
+  artifactKey: Guid(79f5952b924052041b63d12678f07a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (2).png using Guid(79f5952b924052041b63d12678f07a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e1714d8402dfc357a83dacae6f9db') in 0.024466 seconds 
+  Import took 0.030784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (1).png
+  artifactKey: Guid(393f0fbca2c62504c9fb33d69c17624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (1).png using Guid(393f0fbca2c62504c9fb33d69c17624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5309a9111436a0a881e1d6347b855517') in 0.027296 seconds 
+  Import took 0.032586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (3).png
+  artifactKey: Guid(45f093638bc9b1645a33758edb940ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (3).png using Guid(45f093638bc9b1645a33758edb940ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885238600971b17bbab1a478d8656009') in 0.026049 seconds 
+  Import took 0.029321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (4).png
+  artifactKey: Guid(2fa23705574780a49a10b6755fffcf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (4).png using Guid(2fa23705574780a49a10b6755fffcf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aeb1e4502bb54d740070f8960a84ab') in 0.028578 seconds 
+  Import took 0.032099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (5).png
+  artifactKey: Guid(6f4cc848945db0d4e9b63e5ed306b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (5).png using Guid(6f4cc848945db0d4e9b63e5ed306b049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8553be5abfdbc62342a890d2129e9d4') in 0.025749 seconds 
+  Import took 0.029317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (3).png
+  artifactKey: Guid(3a429e8781d920d44a7ee661472542e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Small/Fireball Small (3).png using Guid(3a429e8781d920d44a7ee661472542e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6f471208af51ad7c2d01515a1281ea') in 0.021632 seconds 
+  Import took 0.026365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128097 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (1).png
+  artifactKey: Guid(6f10ca899d537924daff84e52846ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (1).png using Guid(6f10ca899d537924daff84e52846ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48756739b44f34fc4fc49e4e1f8a211a') in 0.040438 seconds 
+  Import took 0.046410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (2).png
+  artifactKey: Guid(179b5a3d1865687498d0223e9e9c670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Fireball Large/Fireball Large (2).png using Guid(179b5a3d1865687498d0223e9e9c670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c2c6b50471fdad440fcf24cfbb9593') in 0.030777 seconds 
+  Import took 0.038426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Diamond (3).png
+  artifactKey: Guid(3de76ac31a64a4f4393826e19f2b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Diamond (3).png using Guid(3de76ac31a64a4f4393826e19f2b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dbd8c3e12a0bd9e631e03c7d1a90cd') in 0.024119 seconds 
+  Import took 0.027575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Door (2).png
+  artifactKey: Guid(0dc4f6fb9bf3f4f48be3803ad6d219d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Door (2).png using Guid(0dc4f6fb9bf3f4f48be3803ad6d219d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8445032276128adf7b1d79c936f5f76') in 0.028755 seconds 
+  Import took 0.032482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Door (3).png
+  artifactKey: Guid(f6b17c21e23d1484b9a4343b67823779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Door (3).png using Guid(f6b17c21e23d1484b9a4343b67823779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af4f42c28609a85f5f185de0ce227c1') in 0.025023 seconds 
+  Import took 0.029593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Door (1).png
+  artifactKey: Guid(ecad8b4a5082ac741aaead97f2615fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Door (1).png using Guid(ecad8b4a5082ac741aaead97f2615fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd433b3ddb01bafc90bd8b162c9e5bc30') in 0.026203 seconds 
+  Import took 0.030896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135043 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Diamond (1).png
+  artifactKey: Guid(f245cdf2e09d080449d8400fd683993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Diamond (1).png using Guid(f245cdf2e09d080449d8400fd683993f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7837dd62d04694d2924541e091b6eb') in 0.041047 seconds 
+  Import took 0.049408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/CactucContakt/Dead (9).png
+  artifactKey: Guid(54b2ff73b7dd0314ea7603c14cc5ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (9).png using Guid(54b2ff73b7dd0314ea7603c14cc5ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4010cf2ba6eaabca48ba8aa31e0645') in 0.027492 seconds 
+  Import took 0.032055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/CactucContakt/Dead (10).png
+  artifactKey: Guid(0a75f75b20801c6468d530f6fdff937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (10).png using Guid(0a75f75b20801c6468d530f6fdff937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4d16fa2ac60083864e9c84ec86d81') in 0.026821 seconds 
+  Import took 0.030995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Diamond (2).png
+  artifactKey: Guid(335cf1dd85d4ef541a0fcde654877549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Diamond (2).png using Guid(335cf1dd85d4ef541a0fcde654877549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa0bc381bc110709bad37c69deec73e') in 0.026152 seconds 
+  Import took 0.030432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/png/Dead (10).png
+  artifactKey: Guid(7c2b36573b1b687468f03f464e11c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (10).png using Guid(7c2b36573b1b687468f03f464e11c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde60525fd0993924a62f733c646108') in 0.028255 seconds 
+  Import took 0.031709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/png/Dead (9).png
+  artifactKey: Guid(950872c5e3abb7d49a326e722c437d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (9).png using Guid(950872c5e3abb7d49a326e722c437d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a301c158f36efe3985aeeec57f3f9d7') in 0.024676 seconds 
+  Import took 0.027971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125787 seconds.
+  path: Assets/CactucContakt/Dead (8).png
+  artifactKey: Guid(2b336f3fa7e521849acea218dcc68c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (8).png using Guid(2b336f3fa7e521849acea218dcc68c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f87a82047301206e8cf52ac2c746ab') in 0.042977 seconds 
+  Import took 0.049456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/CactucContakt/Dead (7).png
+  artifactKey: Guid(312b98373fc480d42991c8e050bccced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (7).png using Guid(312b98373fc480d42991c8e050bccced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9555ddaa5bbe19ed1ca2ea750a1721') in 0.027309 seconds 
+  Import took 0.032840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/png/Dead (8).png
+  artifactKey: Guid(28a614dccbbd6534aa9c54db77aec425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (8).png using Guid(28a614dccbbd6534aa9c54db77aec425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7ab93efde527ad5fa78a8057a3becd') in 0.026434 seconds 
+  Import took 0.030579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/png/Dead (7).png
+  artifactKey: Guid(5d88e07bcbd4e1d42962f8268e01c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (7).png using Guid(5d88e07bcbd4e1d42962f8268e01c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09260a761c882688e418cf740b73289') in 0.026347 seconds 
+  Import took 0.029577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186212 seconds.
+  path: Assets/CactucContakt/Dead (6).png
+  artifactKey: Guid(3c56e73fc2b84a24fb96b5c4414b50b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (6).png using Guid(3c56e73fc2b84a24fb96b5c4414b50b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a12d994912cf80b951b5cbbb43771') in 0.044134 seconds 
+  Import took 0.051007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/CactucContakt/Dead (5).png
+  artifactKey: Guid(45014920169f1014a8beb88e92372c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (5).png using Guid(45014920169f1014a8beb88e92372c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2785945496da08ad5ceb01e2f50041') in 0.034753 seconds 
+  Import took 0.039634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/png/Dead (6).png
+  artifactKey: Guid(196e9b4dd08e5a647af55e305143747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (6).png using Guid(196e9b4dd08e5a647af55e305143747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40de072902b1f844d2731325b17203b8') in 0.029641 seconds 
+  Import took 0.033910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/png/Dead (4).png
+  artifactKey: Guid(852c60450f242a247b946ef1bbb7c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (4).png using Guid(852c60450f242a247b946ef1bbb7c85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d6cc5b1601116cd1b513155dd27d8d') in 0.028774 seconds 
+  Import took 0.032116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/png/Dead (5).png
+  artifactKey: Guid(8752d830cbb33594d9b26968a66f7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (5).png using Guid(8752d830cbb33594d9b26968a66f7982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210a1e93f4692262efe7b8b99b40e98c') in 0.029039 seconds 
+  Import took 0.033295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/CactucContakt/Dead (4).png
+  artifactKey: Guid(45a52febb32da0f41a336074206fe86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (4).png using Guid(45a52febb32da0f41a336074206fe86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dee24e8f9cd4c83d1cdbb38818b76e') in 0.027104 seconds 
+  Import took 0.030503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113529 seconds.
+  path: Assets/png/Dead (3).png
+  artifactKey: Guid(9539455e15b3d224bb49c8e09b006d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (3).png using Guid(9539455e15b3d224bb49c8e09b006d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23ab0b0d57a8b2fd66668fcd8461294') in 0.033591 seconds 
+  Import took 0.037769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/png/Dead (2).png
+  artifactKey: Guid(56d4d3bbbb941094aac1dbb2423a5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (2).png using Guid(56d4d3bbbb941094aac1dbb2423a5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c7e09bf0a508c9c1e42c5b705a7057') in 0.029706 seconds 
+  Import took 0.033067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/CactucContakt/Dead (3).png
+  artifactKey: Guid(4fb378ab962bd244eb54ca2b5de281b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (3).png using Guid(4fb378ab962bd244eb54ca2b5de281b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a475148ad86e590d4c640e8b269022b7') in 0.027856 seconds 
+  Import took 0.031585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/CactucContakt/Dead (2).png
+  artifactKey: Guid(1219a3d25dbe5044eab73192fcc0a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (2).png using Guid(1219a3d25dbe5044eab73192fcc0a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a788ea4e5c624a16f667a15f96efe4') in 0.025745 seconds 
+  Import took 0.029007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185351 seconds.
+  path: Assets/png/Dead (1).png
+  artifactKey: Guid(bec0680f057363f448334d78628bc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/png/Dead (1).png using Guid(bec0680f057363f448334d78628bc1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfe81f7c8a67d3be43683490ba7a702') in 0.035290 seconds 
+  Import took 0.041896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Crystal (1).png
+  artifactKey: Guid(4b946b7bc2966a742ae3bae91a074861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Crystal (1).png using Guid(4b946b7bc2966a742ae3bae91a074861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855f3e231451e9ffc1d88bb9fe7cea40') in 0.028702 seconds 
+  Import took 0.033940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Crystal (3).png
+  artifactKey: Guid(8a311d98641cb59449522cbdf2f14e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Crystal (3).png using Guid(8a311d98641cb59449522cbdf2f14e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e38727caca060f9e948192a838d0683') in 0.024279 seconds 
+  Import took 0.028062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/CactucContakt/Dead (1).png
+  artifactKey: Guid(786efe79b856a844e862b97a54bdc658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactucContakt/Dead (1).png using Guid(786efe79b856a844e862b97a54bdc658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9086f62c0cac20c992daddd92fbca02b') in 0.029993 seconds 
+  Import took 0.033430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Lava Cave/png/Tileable Objects/Crystal (2).png
+  artifactKey: Guid(428fbfaf78d49c5439f642cf81cdca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Tileable Objects/Crystal (2).png using Guid(428fbfaf78d49c5439f642cf81cdca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd876186bfb3e1739f9890b830d2b111e') in 0.028099 seconds 
+  Import took 0.032272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191436 seconds.
+  path: Assets/Lava Cave/preview/Cover.jpg
+  artifactKey: Guid(0f225dbdcf1eae5408d4c9720fcf6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/preview/Cover.jpg using Guid(0f225dbdcf1eae5408d4c9720fcf6a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c75d7c0cc6e7048a4bd3b57269121d') in 0.045671 seconds 
+  Import took 0.049978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Coin/Coin (4).png
+  artifactKey: Guid(246c9f35dba4a964cbcfbca79e39d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Coin/Coin (4).png using Guid(246c9f35dba4a964cbcfbca79e39d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2666b58ce5d50863221087ec95e7276') in 0.024934 seconds 
+  Import took 0.028152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lava Cave/png/Static Objects/Crate.png
+  artifactKey: Guid(48463c502855bcf41873b07119edc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Static Objects/Crate.png using Guid(48463c502855bcf41873b07119edc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5402420586dfd6a48ff658bfbe97ad7e') in 0.023179 seconds 
+  Import took 0.026482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Lava Cave/png/Animated Objects/Coin/Coin (3).png
+  artifactKey: Guid(9b44ab28140c8eb4683b588922a84d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava Cave/png/Animated Objects/Coin/Coin (3).png using Guid(9b44ab28140c8eb4683b588922a84d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c62353091c0b5f904b72a71014e332') in 0.025291 seconds 
+  Import took 0.029056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Objects/Crate.png
+  artifactKey: Guid(9170188c10b9eb34daa7649c2f386a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Crate.png using Guid(9170188c10b9eb34daa7649c2f386a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fcce063ed7f11708d6f3bc2d4c9095') in 0.014237 seconds 
+  Import took 0.017915 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2423.
+Total: 6.053600 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.081200 ms MarkObjects: 5.687600 ms  DeleteObjects: 0.043500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.642 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 6.766700 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.130600 ms MarkObjects: 6.339300 ms  DeleteObjects: 0.030600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2427.
+Total: 6.228300 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.085100 ms MarkObjects: 5.890300 ms  DeleteObjects: 0.045400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
