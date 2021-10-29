@@ -24,19 +24,24 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(this.gameObject);
 
     }
-
+     
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("before PlayerPrefs currentLevel:" + currentLevel);
+        currentLevel = 0;
+
         if (PlayerPrefs.HasKey("currentLevel"))
         {
-            currentLevel = PlayerPrefs.GetInt("currentLevel");
+            
+            //currentLevel = PlayerPrefs.GetInt("currentLevel");
+            //Debug.Log("PlayerPrefs currentLevel:" + currentLevel);
         }
     }
     
     public void OpenLevel(int newLevelNum)
     {
-
+        //SceneManager.LoadScene("level1");
         SceneManager.LoadScene(levelNames[newLevelNum]);
     }
 

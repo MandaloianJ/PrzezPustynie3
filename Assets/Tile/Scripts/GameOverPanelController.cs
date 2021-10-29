@@ -35,8 +35,4 @@ public class GameOverPanelController : MonoBehaviour
         SceneManager.LoadScene("menu");
     }
 
-    public void Loadleve1()
-    {
-        SceneManager.LoadScene("level1");
-    }
 }

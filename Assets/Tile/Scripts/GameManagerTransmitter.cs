@@ -12,7 +12,11 @@ public class GameManagerTransmitter : MonoBehaviour
 
     public void OpenCurrentLevel()
     {
+        Debug.Log("GameManager.instance.OpenLevel:" + GameManager.instance.currentLevel);
         GameManager.instance.OpenLevel(GameManager.instance.currentLevel);
+        //Debug.Log("GameManager.instance.OpenLevel 1.");
+        //GameManager.instance.OpenLevel(1);
+        //SceneManager.LoadScene("level1");
     }
 
     public void CloseApplication()
