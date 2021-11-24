@@ -30,7 +30,6 @@ public class CounterController : MonoBehaviour
             czas_ostatniego_zebrania_monety = DateTime.Now;
         }
         
-        
     }
     public void ResetCounter()
     {
