@@ -10,24 +10,24 @@ public class CounterController : MonoBehaviour
      double numberOfBoxes =0;
     public Text counterView;
     public Text counterView2;
-    DateTime lastevent;
+    DateTime czas_ostatniego_zebrania_monety;
     
 
     // Start is called before the first frame update
     void Start()
     {
         ResetCounter();
-        lastevent = DateTime.Now;
+        czas_ostatniego_zebrania_monety = DateTime.Now;
     }
     public void IncrementCounter()
     {
         Debug.LogError("numberOfBoxes:" + numberOfBoxes);
 
-        if ((DateTime.Now - lastevent).TotalMilliseconds > 250)
+        if ((DateTime.Now - czas_ostatniego_zebrania_monety).TotalMilliseconds > 250)
         {
             numberOfBoxes = numberOfBoxes + 1;
             counterView.text = numberOfBoxes.ToString();
-            lastevent = DateTime.Now;
+            czas_ostatniego_zebrania_monety = DateTime.Now;
         }
         
         
