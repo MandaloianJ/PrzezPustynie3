@@ -6,18 +6,19 @@ using UnityEngine.UI;
 public class CounterController : MonoBehaviour
 {
 
-     int numberOfBoxes =0;
+     double numberOfBoxes =0;
     public Text counterView;
     public Text counterView2;
 
     // Start is called before the first frame update
     void Start()
     {
-        counterView.text = numberOfBoxes.ToString();
+        ResetCounter();
     }
     public void IncrementCounter()
     {
-        numberOfBoxes++;
+        Debug.LogError("numberOfBoxes:" + numberOfBoxes);
+        numberOfBoxes = numberOfBoxes+ 1;
         counterView.text = numberOfBoxes.ToString();
     }
     public void ResetCounter()

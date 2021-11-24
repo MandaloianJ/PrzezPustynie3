@@ -35,13 +35,13 @@ public class MovingPlatform : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log (other.gameObject.name);
+        //Debug.Log (other.gameObject.name);
         other.transform.parent = transform;
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log(other.gameObject.name + " - OUT");
+        //Debug.Log(other.gameObject.name + " - OUT");
         other.transform.parent = null;
     }
 

@@ -4242,6 +4242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterView: {fileID: 593031403}
+  counterView2: {fileID: 0}
 --- !u!114 &150005423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54604,6 +54605,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -91.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666791126416907417, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.266
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666791126416907417, guid: 2ccd73e1d444c67419eed1be989b35b6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ccd73e1d444c67419eed1be989b35b6, type: 3}

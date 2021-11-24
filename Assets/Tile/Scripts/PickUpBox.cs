@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class PickUpBox : MonoBehaviour
 {
-    public AnimationClip clip;
-
+    //public AnimationClip clip;
+    CounterController counterController;
     // Start is called before the first frame update
     void Start()
     {
-        
+        counterController = GameObject.Find("Manager").GetComponent<CounterController>();
+        if (counterController == null)
+        {
+            Debug.LogError("nie znaleziono Counter Controler");
+        }
     }
 
     // Update is called once per frame
@@ -17,7 +21,9 @@ public class PickUpBox : MonoBehaviour
     {
         if (other.gameObject.name == "Girl")
         {
+            counterController.IncrementCounter();
             Destroy(this.gameObject);
+            
         }
     }
 }
