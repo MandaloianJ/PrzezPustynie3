@@ -23,7 +23,7 @@ public class CounterController : MonoBehaviour
     {
         Debug.LogError("numberOfBoxes:" + numberOfBoxes);
 
-        if ((DateTime.Now - czas_ostatniego_zebrania_monety).TotalMilliseconds > 250)
+        if ((DateTime.Now - czas_ostatniego_zebrania_monety).TotalMilliseconds > 280)
         {
             numberOfBoxes = numberOfBoxes + 1;
             counterView.text = numberOfBoxes.ToString();
