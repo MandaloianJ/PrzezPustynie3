@@ -35,7 +35,15 @@ public class MovingPlatform : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.Log (other.gameObject.name);
+        //Debug.Log(other.gameObject.name);
+
+        Rigidbody2D _internalBody = other.attachedRigidbody;
+
+        if (_internalBody != null)
+        {
+            _internalBody.velocity = Vector3.zero;
+            _internalBody.angularVelocity = 0.0f;
+        }
         other.transform.parent = transform;
     }
 
